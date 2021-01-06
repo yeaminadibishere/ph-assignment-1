@@ -15,9 +15,11 @@
 
 /* Tag Section */
 body{
-    font-family:'Poppins', sans-serif; ;
+    font-family:'Bebas Neue', sans-serif; ;
 }
-
+p{
+    font-family: 'Roboto';
+}
 h1{
     font-size: 50px;
 }
@@ -34,23 +36,17 @@ section {
 
 
 /* Id Section */
+#lastimg {
+    background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    padding: 150px
+   
+    
 
-#box1{
-    background-color: white;
-    border: 2px ;
-    border-radius: 9px;
-    box-shadow: 10px 10px 40px grey;
-    height: auto
-    width: 25%;
 
 }
-#box1 img {
-    width: 70%;
-    padding: 40px 10px ;
- 
-}
-
-
 
 
 
@@ -66,13 +62,7 @@ section {
     margin-left:  4%;
     margin-top: 2%;
 }
-.half-width-02{
-    width: 40%;
-    float: left;
-    padding-left: 2%;
-    margin-left:  4%;
-    margin-top: 2%;
-}
+
 .half-width-01 img{
     width: 75%;
 }
