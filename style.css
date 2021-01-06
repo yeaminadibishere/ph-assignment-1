@@ -27,16 +27,28 @@ h3{
 h2{
     font-size: 40px;
 }
-
-
-
-
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
 
 
 /* Id Section */
 
+#box1{
+    background-color: white;
+    border: 2px ;
+    border-radius: 9px;
+    box-shadow: 10px 10px 40px grey;
+    height: auto
+    width: 25%;
 
-
+}
+#box1 img {
+    width: 70%;
+    padding: 40px 10px ;
+ 
+}
 
 
 
@@ -54,8 +66,15 @@ h2{
     margin-left:  4%;
     margin-top: 2%;
 }
+.half-width-02{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left:  4%;
+    margin-top: 2%;
+}
 .half-width-01 img{
-    width: 80%;
+    width: 75%;
 }
 .btn-link{
     text-decoration: none;
@@ -63,4 +82,13 @@ h2{
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+}
+.projects-info{
+    background-color: #F8F9FC;
+}
+.highlight-text-1{
+    color :rgb(209, 30, 7)
+}
+.heading1-padx{
+    padding: 70px 40px ;
 }
